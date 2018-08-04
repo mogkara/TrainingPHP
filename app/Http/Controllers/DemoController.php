@@ -8,7 +8,7 @@ class DemoController extends Controller
 {
 	public function index()
     {
-        return "Method GET: Index";
+        return view('admin.layouts.template');
     }
 
     public function demotwo()
